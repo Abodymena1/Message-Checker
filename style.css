@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#message-box{
+    width: 400px;
+    
+}
+#input, button{
+    width: 100%;
+    height: 25px;
+}
+
+button{
+    margin: 5px 0;
+    background-color: blueviolet;
+    font-style: bold;
+    font-weight: bold;
+    border:0;
+    opacity: 0.7;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 1;
+}
+#ms{
+    font-size: 16;
+    color:green;
+    text-align: center;
+    font-weight: bold;
+}
